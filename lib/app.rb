@@ -12,3 +12,7 @@ end
 get '/anotherpage' do
   "Extra page"
 end
+
+get '/cat' do
+  erb(:index)
+end
